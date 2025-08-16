@@ -38,12 +38,6 @@ class LinearRegression:
         # Make predictions on new data
 ```
 
-### Key Features
-
-1. **Gradient Descent**: Uses matrix operations for efficient computation
-2. **Bias Term**: Automatically adds bias (intercept) to the model
-3. **Data Scaling**: StandardScaler for feature normalization
-4. **Animation**: Saves predictions at specific epochs for visualization
 
 ## 🎬 Training Visualization
 
@@ -121,19 +115,6 @@ Where `α` is the learning rate.
 ### Data Preprocessing
 - **Label Encoding**: Converts categorical variables to numerical
 - **Standard Scaling**: Normalizes features to have mean=0, std=1
-- **Train/Test Split**: Can be added for model evaluation
-
-## 📁 Project Structure
-
-```
-LinearRegression-from-scratch/
-│
-├── LinearRegressionScratch.ipynb    # Main notebook
-├── Car_Price_Prediction.csv         # Dataset
-├── linear_regression_training.gif   # Generated animation
-├── README.md                        # This file
-└── temp_plots/                      # Temporary images (auto-deleted)
-```
 
 ## 🎓 Learning Outcomes
 
@@ -144,20 +125,9 @@ This project demonstrates:
 - **Visualization** of machine learning training process
 - **Performance evaluation** metrics
 
-## 🤝 Contributing
-
-Feel free to:
-- Add new features (regularization, different optimizers)
-- Improve visualizations
-- Add more datasets
-- Optimize performance
-
 ## 📚 References
 
 - [Linear Regression Theory](https://en.wikipedia.org/wiki/Linear_regression)
 - [Gradient Descent Algorithm](https://en.wikipedia.org/wiki/Gradient_descent)
 - [NumPy Documentation](https://numpy.org/doc/)
 
----
-
-**Note**: This implementation is for educational purposes. For production use, consider using optimized libraries like scikit-learn.
